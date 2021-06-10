@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.container {
+  max-width: 1200;
+  padding: 0 40px;
+  margin: 0 auto;
+}
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+.main-nav .main-menu {
+  display: flex;
+}
+.main-nav .main-menu a {
+  padding: 0 5px;
+}
+.main-nav .logo {
+  width: 110px;
+}
+.main-nav .right-menu {
+  display: flex;
+}
+.main-nav .right-menu a:first-child {
+  padding-right: 20px;
+}
